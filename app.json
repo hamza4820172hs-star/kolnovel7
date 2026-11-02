@@ -1,0 +1,26 @@
+{
+  "expo": {
+    "name": "Novel Reader",
+    "slug": "novel-reader-translator",
+    "version": "0.4.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "android": {
+      "package": "com.hamza.novelreader",
+      "permissions": [
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "icon": "./assets/icon.png",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#080B13"
+      }
+    },
+    "plugins": [
+      "expo-sqlite",
+      "expo-document-picker"
+    ],
+    "icon": "./assets/icon.png"
+  }
+}
